@@ -8,6 +8,7 @@
 html{
     margin: o;
     padding: o;
+    box-sizing: border-box;
 }
 body{
     height: 100%;
@@ -25,9 +26,42 @@ body{
     margin-top: 20px;
 }
 header{
-    background-color: #f8f8f8;
-    position: fixed;
+    background-color: #f8f8f8; /*for the header container*/
+    position: fixed; 
+/*must go hand in hand with the position fixed, position set at fixed constrains the container to the contents only*/ 
     width: 100%;
+/*This makes the header box container flow inwards so as to remove the visible margins*/
     margin: -7px;
-    box-shadow: 1px 1px 4px 1px #475B55;
+/*darkish in nature for the shadow*/
+    box-shadow: 1px 1px 4px 1px #475B55; 
+}
+/*Style up the nav container*/
+nav ul{
+    list-style: none;
+    display: block;
+    float: right;
+    clear: both;
+    margin-right: 80px;
+    margin-top: -50px;
+    padding-bottom: 18px;
+}
+ul{
+    margin: 0px;
+    padding: 0px; 
+}
+/*Style up the li tags*/
+nav ul li{
+    float: left;
+    margin-left: 20px;
+    position: relative;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+    font-weight: 800;
+}
+nav ul li a{
+    color: #000;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 12px 20px;
+    text-decoration: none;
 }
