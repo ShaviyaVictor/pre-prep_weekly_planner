@@ -24,3 +24,10 @@ body{
     margin-left: 8px;
     margin-top: 20px;
 }
+header{
+    background-color: #f8f8f8;
+    position: fixed;
+    width: 100%;
+    margin: -7px;
+    box-shadow: 1px 1px 4px 1px #475B55;
+}
