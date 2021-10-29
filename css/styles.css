@@ -1,3 +1,10 @@
+/*Import the 3 fonts to be used: Gorditas, Roboto Mono and maitree*/
+@import url('https://fonts.googleapis.com/css2?family=Gorditas&display=swap');
+/*font-family: 'Gorditas', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+/*font-family: 'Roboto Mono', monospace;*/
+@import url('https://fonts.googleapis.com/css2?family=Maitree:wght@200&display=swap');
+/*font-family: 'Maitree', serif;*/
 html{
     margin: o;
     padding: o;
