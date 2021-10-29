@@ -14,3 +14,9 @@ body{
     background-color: #c4c4c4; /*greyish*/
     display: block;
 }
+.w220{
+    width: 220px;
+}
+.h50{
+    height: 50px;
+}
