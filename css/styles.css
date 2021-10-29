@@ -17,24 +17,20 @@ body{
 }
 header{
     background-color: #f8f8f8; /*for the header container*/
-    position: fixed; 
-/*must go hand in hand with the position fixed, position set at fixed constrains the container to the contents only*/ 
-    width: 100%;
-/*This makes the header box container flow inwards so as to remove the visible margins*/
-    margin: -7px;
 /*darkish in nature for the shadow*/
-    box-shadow: 1px 1px 4px 1px #475B55; 
+    box-shadow: 1px 1px 6px 1px #475B55; 
     display: flex;
 }
 .logo{
     margin: 30px;
+    margin-left: 135px;
 }
 .w220{
     width: 220px;
     height: 50px;
 }
 nav{
-    margin-left: 600px;
+    margin-left: 500px;
 }
 nav ul.nostyle{
     list-style: none;
@@ -69,4 +65,67 @@ a:hover, a:focus, a:active {
 a:hover ul.dropdown{
     display: list-item;
     position: relative;
+}
+hgroup{
+    text-align: center;
+}
+#mainhead{
+    font-family: 'Gorditas', cursive;
+    font-size: 3em;
+    line-height:1em;
+}
+#submainhead{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2em;
+    line-height: 0.2em;
+}
+#date{
+    font-family: 'Roboto Mono', monospace;
+    line-height: 0.5em;
+}
+
+  table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: #00B97C solid
+  }
+th, td {
+    border: 2px solid black;
+    padding: 10px;
+    width: 150px;
+  }
+table #right{
+    text-align: right;
+}
+.schedule{
+    background-color: #fff;
+    width: 1200px;
+    margin-left: 180px;
+}
+caption .schedule{
+    margin-left: 80px;
+    text-align: centre;
+}
+#holder{
+    font-size: 19px;
+    font-weight: 300;
+}
+form{
+    font-family: 'Maitree', serif;
+}
+.illustration{
+    display: flex;
+    justify-content: space-evenly;
+}
+#submit{
+    background-color: #00B97C;
+    margin-bottom: 3em;
+    padding: 8px;
+    border-radius: 24px;
+    border: none;
+    cursor: pointer;
+}
+#submit:hover{
+    background-color: #00EEA0;
 }

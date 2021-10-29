@@ -66,13 +66,132 @@
             </nav>
         </header>
         <hgroup>
-            <h1>WeeklyPlanner</h1>
-            <h3>Moringa Pre-Prep</h3><br>
-            <h5>Oct 25
-                <sup>th</sup>
-                 - Nov 25
-                <sup>th</sup>
-            </h5>
+            <h1 id="mainhead">
+                WeeklyPlanner
+            </h1>
+            <h1 id="submainhead">
+                Moringa Pre-Prep
+            </h1>
+            <h2 id="date">Oct 25<sup>th</sup> - Nov 25<sup>th</sup>
+            </h2>
         </hgroup>
+        <div class="schedule">
+            <table>
+                <tr>
+                    <td id="right">Day</td>
+                    <th rowspan="2">Mon</th>
+                    <th rowspan="2">Tue</th>
+                    <th rowspan="2">Wed</th>
+                    <th rowspan="2">Thur</th>
+                    <th rowspan="2">Fri</th>
+                </tr>
+                <tr>
+                    <td id="left">Date</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <th colspan="2.5">&lt;shower&gt;</th>
+                    <th colspan="2.5">&lt;/shower&gt;</th>
+                </tr>
+                <tr>
+                    <th>4am - 8:30am</th>
+                    <td>TC</td>
+                    <td>TC</td>
+                    <td>TC</td>
+                    <td>TC</td>
+                    <td>TC</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <th colspan="5">&lt;br&gt;</th>
+                </tr>
+                <tr>
+                    <th>9am - 11am</th>
+                    <th colspan="2.5">&lt;standup&gt;</th>
+                    <th colspan="2.5">&lt;/standup&gt;</th>
+                </tr>
+                <tr>
+                    <th>11am - 1pm</th>
+                    <td>TC</td>
+                    <td>TC</td>
+                    <td>TC</td>
+                    <td>TC</td>
+                    <td>TC</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <th colspan="5">&lt;br&gt;</th>
+                </tr>
+                <tr>
+                    <th>2pm - 3:30pm</th>
+                    <td>SS</td>
+                    <td>SS</td>
+                    <td>SS</td>
+                    <td>SS</td>
+                    <td>SS</td>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th colspan="2.5">&lt;checkout&gt;</th>
+                    <th colspan="2.5">&lt;/checkout&gt;</th>
+                </tr>
+                <tr>
+                    <th>4pm - 6:30pm</th>
+                    <td>TC</td>
+                    <td>TC</td>
+                    <td>TC</td>
+                    <td>TC</td>
+                    <td>TC</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <th colspan="5">&lt;br&gt;</th>
+                </tr>
+                <tr>
+                    <th>7pm - 9pm</th>
+                    <td>TC</td>
+                    <td>TC</td>
+                    <td>TC</td>
+                    <td>TC</td>
+                    <td>TC</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <th colspan="5">("getDoneForTheDay")</th>
+                </tr>
+                <tr>
+                    <th>10pm - 2am</th>
+                    <th colspan="2.5">&lt;sleep&gt;</th>
+                    <th colspan="2.5">&lt;/sleep&gt;</th>
+                </tr>
+            </table><br>
+            <caption class="schedule">TC - Technical Content; SS - Soft Skills.</caption><br>          
+            <div class="illustration">
+                <img src="images/reminder.svg" width="500px" title="Side Notes">
+                <div class="forms">
+                    <h5 id="holder">Daily to-do checklist:</h5>
+                    <form class="a">
+                        <input type="checkbox" name="todo" id="check1">
+                        <label for="check1">Take a shower.</label><br>
+                        <input type="checkbox" name="todo" id="check2">
+                        <label for="check2">Find time for a verse.</label><br>
+                        <input type="checkbox" name="todo" id="check3">
+                        <label for="check3">Attend the morning standups</label><br>
+                        <input type="checkbox" name="todo" id="check4">
+                        <label for="check4">Check up on your partner.</label><br>
+                        <input type="checkbox" name="todo" id="check5">
+                        <label for="check5">Go through the day's content.</label><br>
+                        <input type="checkbox" name="todo" id="check6">
+                        <label for="check6">Attend the evining checkouts.</label><br>
+                    </form><br>
+                    <form class="b" action="#">
+                        <label for="journaling"><b>Journal sheet:</b></label><br><br>
+                        <textarea name="day's_review" id="journaling" cols="30" rows="10" placeholder="Just write anything self development related..." required autofocus></textarea><br><br>
+                        <input id="submit" type="submit" title="submission" value="SUBMIT">
+                    </form>
+                </div>
+
+            </div>
+        </div>
     </body>
 </html>
