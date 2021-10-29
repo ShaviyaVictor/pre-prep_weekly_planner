@@ -15,16 +15,6 @@ body{
     background-color: #c4c4c4; /*greyish*/
     display: block;
 }
-.w220{
-    width: 220px;
-}
-.h50{
-    height: 50px;
-}
-.w220{
-    margin-left: 8px;
-    margin-top: 20px;
-}
 header{
     background-color: #f8f8f8; /*for the header container*/
     position: fixed; 
@@ -34,34 +24,32 @@ header{
     margin: -7px;
 /*darkish in nature for the shadow*/
     box-shadow: 1px 1px 4px 1px #475B55; 
+    display: flex;
 }
-/*Style up the nav container*/
-nav ul{
+.logo{
+    margin: 30px;
+}
+.w220{
+    width: 220px;
+    height: 50px;
+}
+nav{
+    margin-left: 600px;
+}
+nav ul.nostyle{
     list-style: none;
-    display: block;
-    float: right;
-    clear: both;
-    margin-right: 80px;
-    margin-top: -50px;
-    padding-bottom: 18px;
-}
-ul{
-    margin: 0px;
-    padding: 0px; 
-}
-/*Style up the li tags*/
-nav ul li{
-    float: left;
-    margin-left: 20px;
-    position: relative;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 18px;
-    font-weight: 800;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 46px;
+    width: 600px;
 }
 nav ul li a{
-    color: #000;
     text-transform: uppercase;
-    display: inline-block;
-    padding: 12px 20px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    font-weight: bolder;
+    padding: 5px 5px 5px 5px;
     text-decoration: none;
+    color: black;
+    letter-spacing: 1px;
 }
